@@ -14,9 +14,9 @@
   </head>
   <body>
     <header class="about">
-      <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
+      <img class="about__img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
       <a
-        class="more-info"
+        class="about__info"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >Want more details?
       </a>
@@ -24,10 +24,10 @@
     <main class="main-page-wrapper">
       <section id="add-task">
         <h1 for="new-task">Add Item</h1>
-        <div class="task-row-wrapper">
+        <div class="add-task__wrapper">
           <input
             id="new-task"
-            class="input-task"
+            class="add-task__input"
             type="text"
           >
           <button>Add</button>
@@ -42,7 +42,7 @@
             <input type="text" class="input-task">
             <button class="btn-edit">Edit</button>
             <button class="btn-delete">
-              <img src="./remove.svg" alt="remove-button">
+              <img class="btn-delete__img" src="./remove.svg" alt="remove-button">
             </button>
           </li>
           <li class="edit-mode">
@@ -55,7 +55,7 @@
             >
             <button class="btn-edit">Save</button>
             <button class="btn-delete">
-              <img src="./remove.svg" alt="remove-button">
+              <img class="btn-delete__img" src="./remove.svg" alt="remove-button">
             </button>
           </li>
         </ul>
@@ -63,7 +63,7 @@
       <section>
         <h2>Completed</h2>
         <ul id="completed-tasks">
-          <li>
+          <li class="completed">
             <input
               type="checkbox"
               checked
@@ -75,7 +75,7 @@
             >
             <button class="btn-edit">Edit</button>
             <button class="btn-delete">
-              <img src="./remove.svg" alt="remove-button">
+              <img class="btn-delete__img" src="./remove.svg" alt="remove-button">
             </button>
           </li>
         </ul>
