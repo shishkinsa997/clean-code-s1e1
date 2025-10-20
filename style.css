@@ -31,11 +31,25 @@ body {
   margin: 0 auto 0;
 }
 
-.add-task__input {
+.task {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.add-task__input,
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
+.input-task {
+  display: none;
+  width: 226px;
+}
+
 
 .add-task__wrapper {
   display: flex;
@@ -124,17 +138,6 @@ input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.task {
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  width: 226px;
-}
-
-.input-task {
-  width: 226px;
-}
-
 .btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -151,9 +154,9 @@ input[type="checkbox"] {
 }
 
 .edit-mode input[type=text] {
-  display: none;
   display: inline-block;
   width: 224px;
+  flex-grow: 1;
 }
 
 .edit-mode label {
