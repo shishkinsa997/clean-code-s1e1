@@ -21,9 +21,9 @@ body {
 }
 
 @media (max-width:768px) {
-.about {
-  text-align: center;
-}
+  .about {
+    text-align: center;
+  }
 }
 
 .main-page-wrapper {
